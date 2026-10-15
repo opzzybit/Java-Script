@@ -13,7 +13,7 @@ result = sumOfNumber(9);
 console.log ("the total sum of 1-9 = ",result);
 
 
-//EXPRESSION CALCUATOR
+//EXPRESSION CALCULATOR
 console.log ();
 function computedExpression(number1,number2,number3,number4,number5){
 
@@ -34,8 +34,8 @@ function areaOfCircle(radius,pi){
     let perimeter = 2 * radius * pi;
     let area = radius * radius * pi;
     
-    console.log ("the premeter of the circle = ",perimeter);
-    console.log (`the premeter of the circle approximated = ${perimeter.toFixed(2)}`);
+    console.log ("the perimeter of the circle = ",perimeter);
+    console.log (`the perimeter of the circle approximated = ${perimeter.toFixed(2)}`);
     return area;
 };
 result = areaOfCircle(5.5,22/7);
@@ -67,8 +67,8 @@ function avearageSpeed(kilometer,minutes,seconds){
     
     console.log (`the time converted = ${hours.toFixed(5)} hours`);
     console.log (`the mile converted = ${miles} mph`);
-    console.log ("the avearge speed in kilometer = ",averageSpeedKilo ,"km/h");
-    console.log (`the avearge speed in kilometer approximated = ${averageSpeedKilo.toFixed(3)} km/h`);
+    console.log ("the average speed in kilometer = ",averageSpeedKilo ,"km/h");
+    console.log (`the average speed in kilometer approximated = ${averageSpeedKilo.toFixed(3)} km/h`);
 
     return averageSpeedMile; 
 

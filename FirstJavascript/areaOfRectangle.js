@@ -3,4 +3,4 @@ let height = 7.9;
 
 area = width * height;
 
-console.log (`the perimeter of a rectangle = ${area.toFixed(2)}`)
+console.log (`the area of a rectangle = ${area.toFixed(2)}`)
