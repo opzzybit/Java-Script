@@ -37,19 +37,16 @@ let divisor = 2;
 for (let index = 0; index <= numberInputed.length+1;index ++){
     for(let count = 1; count < numberInputed.length+1; count ++){
         
-        while (numberInputed[index] > 1){
+        while (numberInputed[0] > 1){
             
-            if (numberInputed[index] % divisor === 0 ){
-                numberInputed[index] = Math.floor(numberInputed[index] / divisor);
+            if (numberInputed[0] % divisor === 0 ){
+                numberInputed[0] = Math.floor(numberInputed[0] / divisor);
                 primeFactor[0].push(divisor)
+                break;          
             }
-            if (numberInputed[count] % divisor === 0){
-                numberInputed[count] = Math.floor(numberInputed[count] / divisor);
-                console.log();  
-                console.log(divisor);
-            }   
+         
             else{    
-                divisor += 1
+                divisor ++;
             }
         }
     
