@@ -1,20 +1,17 @@
 function permutationCapitalization(word){
 
-    let length = word.length;
+    let length = 2 ** word.length ;
+    
     
     let newList = [];
     
-    for (let runTime = 0; runTime < length; runTime++){
-       
-       for(let slice){
-       
-       }
-    
-    }
-    
-    
-    return newList.length;
+    for (let runTime = 0; runTime < word.length; runTime++){
+         newList.push(word.charAt(runTime))      
+    {
+    return newList;
 };
+
+
 console.log(permutationCapitalization("abc"));
 
 
