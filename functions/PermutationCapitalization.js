@@ -7,7 +7,7 @@ function permutationCapitalization(word){
     
     for (let runTime = 0; runTime < word.length; runTime++){
          newList.push(word.charAt(runTime))      
-    {
+    }
     return newList;
 };
 

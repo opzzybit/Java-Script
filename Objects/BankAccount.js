@@ -20,7 +20,7 @@ const bankAccount = {
 console.log(bankAccount)
 
 let depositInput = 8000;
-let withDrawInput = 800;
+let withDrawInput = 100;
 
 console.log("USERNAME : " , bankAccount.owner)
 console.log("Balance : " , bankAccount.balance)

@@ -16,7 +16,7 @@ let numberCount = Number (userInput("Enter any number from 1 - 20:  "));
     }
     else{
          inputNumber += numberCount;
-         compare += false;
+         compare = false;
          break;
     }
 }
